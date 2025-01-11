@@ -1,0 +1,19 @@
+.our-results {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.pentagons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pentagon {
+    width: 100px;
+    height: 100px;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
